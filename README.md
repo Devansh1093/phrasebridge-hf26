@@ -17,7 +17,7 @@ set -a && . ./.env && set +a
 python3 app.py
 ```
 
-Open <http://localhost:8000>. The server reads `PORT` (default `8000`) and binds to `0.0.0.0`, as required for Render. The standard library does not load `.env` automatically, so export its values as above or set them in your shell.
+Open < https://phrasebridge-hf26.onrender.com>. 
 
 | Variable | Required | Purpose |
 | --- | --- | --- |
