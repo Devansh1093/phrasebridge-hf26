@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f2eb">
+  <meta name="description" content="A low-pressure language practice partner powered by open-weight AI.">
+  <title>PhraseBridge — practice at your pace</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script defer src="/app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="PhraseBridge home"><span class="brand-mark">p</span><span>phrasebridge</span></a>
+    <div class="privacy"><span class="privacy-dot"></span><span>Not saved by PhraseBridge</span><span class="privacy-divider">·</span><span id="model-label">Checking service</span></div>
+  </header>
+  <main class="layout">
+    <aside class="setup-panel" aria-label="Practice setup">
+      <div class="eyebrow">YOUR PRACTICE SPACE</div>
+      <h1>Small talk.<br><em>Big progress.</em></h1>
+      <p class="intro">A patient practice partner for the conversations you actually want to have.</p>
+      <label for="language">I’m learning</label>
+      <select id="language">
+        <option>Spanish</option><option>French</option><option>Italian</option><option>German</option>
+        <option>Portuguese</option><option>Japanese</option><option>Korean</option><option>English</option>
+      </select>
+      <label for="scenario">Let’s practice</label>
+      <select id="scenario">
+        <option value="meeting a friend at a café">At a café</option>
+        <option value="introducing yourself to someone new">Meeting someone new</option>
+        <option value="asking for directions while exploring a city">Finding your way</option>
+        <option value="a relaxed chat about hobbies and your week">Everyday conversation</option>
+        <option value="ordering food at a restaurant">At a restaurant</option>
+        <option value="custom">My own situation…</option>
+      </select>
+      <input id="custom-scenario" class="custom-scenario hidden" maxlength="120" placeholder="Describe a situation" aria-label="Your custom situation">
+      <label for="style">Correction style</label>
+      <select id="style">
+        <option value="gentle">Gentle — save corrections for when I ask</option>
+        <option value="balanced">Balanced — a little guidance</option>
+        <option value="detailed">Detailed — explain useful patterns</option>
+      </select>
+      <div class="setup-note"><span class="note-icon">✳</span><span>You’re in charge. Ask for a correction any time, or just keep the conversation flowing.</span></div>
+      <button id="new-session" class="new-session" type="button"><span>↺</span> Start fresh</button>
+    </aside>
+    <section class="practice" aria-label="Conversation practice">
+      <div class="practice-heading"><div><div class="eyebrow">A MOMENT TO PRACTICE</div><h2 id="conversation-title">At a café <span>·</span> Spanish</h2></div><div class="level-pill"><span></span> YOUR PACE</div></div>
+      <div id="chat" class="chat" role="log" aria-live="polite" aria-label="Conversation">
+        <div class="welcome-card"><div class="welcome-spark">✳</div><h3>Hola, friend.</h3><p>We’re at a little café. I just found a table by the window. How has your day been?</p><span class="welcome-caption">YOUR PARTNER IS WAITING</span></div>
+      </div>
+      <div id="error" class="error hidden" role="alert"></div>
+      <div class="composer-wrap">
+        <form id="composer" class="composer">
+          <textarea id="message" rows="2" maxlength="2000" placeholder="Write a reply in Spanish…" aria-label="Your message" required></textarea>
+          <div class="composer-bottom"><div class="composer-hint"><kbd>↵</kbd> send <span>·</span> <kbd>⇧ ↵</kbd> new line</div><button id="correction-toggle" type="button" class="correction-btn" aria-pressed="false">✦ Ask for a correction</button><button id="send" class="send-btn" type="submit" aria-label="Send message"><span>Send</span><b>↗</b></button></div>
+        </form>
+        <div class="footnote"><span>✳</span> A little practice counts. Take it one sentence at a time.</div>
+      </div>
+    </section>
+  </main>
+  <footer><span>Made for the words you haven’t found yet.</span><a href="https://dev.to/challenges/hacktoberfest-weekend-2026-10-01" target="_blank" rel="noreferrer">Built for a friend · Hacktoberfest ’26 ↗</a></footer>
+</body>
+</html>

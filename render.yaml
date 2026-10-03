@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: phrasebridge
+    runtime: python
+    plan: free
+    buildCommand: echo "No build step required"
+    startCommand: python3 app.py
+    healthCheckPath: /api/health
+    envVars:
+      - key: CHAT_API_URL
+        sync: false
+      - key: CHAT_API_KEY
+        sync: false
+      - key: CHAT_MODEL
+        sync: false
