@@ -1,30 +1,26 @@
-# DEV submission draft — not published
+## DEV submission
 
 Uses the official [Hacktoberfest Weekend Challenge: Build for a Friend](https://dev.to/challenges/hacktoberfest-weekend-2026-10-01) requirements. Complete every bracketed field with accurate details and recheck the live challenge page before publishing.
 
 ## What I Built
 
-PhraseBridge is a language practice partner I built for my sister, who enjoys learning new languages. It gives her a way to practise languages through AI conversation and request corrections when she wants them. I have not included feedback or claims that she has used the deployed version.
+PhraseBridge is a language practice partner I built for my friend, who enjoys learning new languages. It gives her a way to practise languages through AI conversation and request corrections when she wants them. I have not included feedback or claims that she has used the deployed version.
 
 ## Demo
 
-[Add a working deployed demo URL or short video.]
+[https://phrasebridge-hf26.onrender.com/]
 
 ## Code
 
-[Add the public code repository URL.]
+[https://github.com/Devansh1093/phrasebridge-hf26]
 
 ## How I Built It
 
 PhraseBridge is a small Python web server with a browser chat interface. Render is configured to host the public application. It sends validated chat turns to OpenRouter's OpenAI-compatible chat completions endpoint with model `google/gemma-4-26b-a4b-it`; inference is accessed through OpenRouter. The server does not store chat history, but OpenRouter processes submitted text. Render hosts the web application and does not provide AI inference. No live Render deployment has been verified yet.
 
 ## Why Does Open Innovation Matter?
+PhraseBridge was inspired by my friend, who genuinely enjoys learning new languages and discovering different cultures. I wanted to give him a more natural and engaging way to practise conversations while learning. By using open-source AI, PhraseBridge can help others in learning new languages with just a text conversation.
 
-[Describe why open model access matters to this friend's actual need. Discuss the model and deployment choices accurately, including that inference goes to the configured provider and that model advice can be wrong.]
-
-## My Agent Session
-
-Optional. Add a session link only if one was actually captured.
 
 ## Prize Categories
 
@@ -36,4 +32,3 @@ Optional. Add a session link only if one was actually captured.
 
 ---
 
-Not published. Working demo URL, code URL, and final open-model/provider details remain to be supplied. No feedback or deployed-version use by my sister is claimed. The official entry window is listed as October 2, 2026 02:00 UTC to October 5, 2026 06:59 UTC. Recheck the official submission interface; the challenge page and hub have shown differing status labels.
