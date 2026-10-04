@@ -1,7 +1,5 @@
 # Submission checklist
 
-Recheck the official challenge page and actual DEV submission interface before entering. Challenge rules change; this checklist records the official pages checked October 3, 2026.
-
 ## Official requirements
 
 | Requirement | Status | Evidence / remaining work |
@@ -26,14 +24,4 @@ Recheck the official challenge page and actual DEV submission interface before e
 | Provider-backed browser conversation | PENDING | Configure credentials/model and make a real chat request after deployment. |
 | Security review | PASS (source review) | See `docs/SECURITY_REVIEW.md`; no secret or live deployment audit has been performed. |
 
-## Official sources checked October 3, 2026
 
-- [Challenge page](https://dev.to/challenges/hacktoberfest-weekend-2026-10-01)
-- [Contest rules](https://dev.to/page/hacktoberfest-weekend-challenge-26-10-01-contest-rules)
-- [HF26 hub](https://dev.to/challenges/hf26/)
-
-The contest rules list an entry period of October 2, 2026 02:00 UTC through October 5, 2026 06:59 UTC and require a new project with open-source AI at its core, a real friend/loved-one problem, why open-source AI matters, a demo, code link, and DEV post using the provided template and `#hf26challenge`. Judging lists writing quality (weighted most heavily), relevance, creativity, technical execution, and partner technology for partner category entries. The hub currently lists the Weekend Challenge as live while the detail page has displayed “Live Ended”; confirm the submission interface before entry.
-
-## Final disposition
-
-Do not claim a complete eligible entry until friend evidence, open-weight provider setup, demo, code URL, and current submission availability are confirmed. Do not create or push a repository before final audit. DEV submission remains manual.
