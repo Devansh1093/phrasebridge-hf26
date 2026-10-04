@@ -1,7 +1,5 @@
 # Security review
 
-Review date: October 3, 2026. Scope: PhraseBridge source, request handling, and deployment configuration.
-
 ## Findings
 
 - The application has no committed AI credential. `.env.example` contains placeholders; `.env` is ignored by Git.
@@ -15,4 +13,3 @@ Review date: October 3, 2026. Scope: PhraseBridge source, request handling, and 
 
 - OpenRouter processes conversation text and receives the API key as a bearer token. Review OpenRouter's privacy and security terms, keep the key private, and avoid entering sensitive content. Render hosts the Python application but does not provide AI inference.
 - The model may produce incorrect language suggestions. The app is a practice aid, not a source of authoritative language instruction.
-- A live Render deployment and provider-backed browser conversation have not yet been verified.
