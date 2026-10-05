@@ -8,11 +8,11 @@ PhraseBridge is a language practice partner I built for my friend, who enjoys le
 
 ## Demo
 
-[https://phrasebridge-hf26.onrender.com/]
+https://phrasebridge-hf26.onrender.com/
 
 ## Code
 
-[https://github.com/Devansh1093/phrasebridge-hf26]
+https://github.com/Devansh1093/phrasebridge-hf26
 
 ## How I Built It
 
