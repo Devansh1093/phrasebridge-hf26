@@ -1,6 +1,6 @@
 # PhraseBridge
 
-PhraseBridge is a low-pressure AI language practice chat built for my friend, who enjoys learning new languages. Choose a language and an everyday situation, practise a reply, and ask for a gentle, balanced, or detailed correction whenever you want one. The AI keeps the role-play moving with a follow-up question.
+PhraseBridge is a AI language practice chat built for my friend, who enjoys learning new languages. Choose a language and an everyday situation, practise a reply, and ask for a gentle, balanced, or detailed correction whenever you want one. The AI keeps the role-play moving with a follow-up question.
 
 Chat history stays only in the current browser session and is cleared when the page is reset or reloaded.
 
